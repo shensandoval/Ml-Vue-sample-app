@@ -12,7 +12,7 @@ const mysqlConnection = mysql.createPool({
     multipleStatements: true
 });
 
-github_ssh_private_key= "sjkdakdhuyqawinas"
+github_ssh_sjkdakdhuyqawinas
 
 mysqlConnection.getConnection((err) => {
     if (!err) {
