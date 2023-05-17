@@ -14,9 +14,6 @@ const mysqlConnection = mysql.createPool({
 
 github_ssh_private_key
 
-easypost_production_api_key			
-
-
 mysqlConnection.getConnection((err) => {
     if (!err) {
         console.log("Connected kpusers.")
